@@ -41,7 +41,8 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'blog',
+    'blog'
+
 
 ]
 
@@ -138,11 +139,11 @@ STATICFILES_DIRS = os.path.join(BASE_DIR,'static'),
 STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles_build', 'static')
 
 MATERIAL_ADMIN_SITE = {
-    'HEADER':  'Animezone Admin Login',  # Admin site header # ----->>> Take AS a string.....
-    'TITLE':  'Animezone',  # Admin site title
+    'HEADER':  'CodeBay Admin Login',  # Admin site header # ----->>> Take AS a string.....
+    'TITLE':  'CodeBay',  # Admin site title
     # 'FAVICON':  'path/to/favicon',  # Admin site favicon (path to static should be specified)
     # 'MAIN_BG_COLOR':  '#000',  # Admin site main color, css color should be specified
-    # 'MAIN_HOVER_COLOR':  'color',  # Admin site main hover color, css color should be specified
+    # 'MAIN_HOVER_COLOR':  '1000',  # Admin site main hover color, css color should be specified
     # 'PROFILE_PICTURE':  'path/to/image',  # Admin site profile picture (path to static should be specified)
     # 'PROFILE_BG':  'path/to/image',  # Admin site profile background (path to static should be specified)
     # 'LOGIN_LOGO':  'path/to/image',  # Admin site logo on login page (path to static should be specified)

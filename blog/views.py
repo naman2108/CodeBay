@@ -10,6 +10,7 @@ def home(request):
     # print(posts)
 
     cats = Category.objects.all()
+    
 
     data = {
         'posts': posts,
